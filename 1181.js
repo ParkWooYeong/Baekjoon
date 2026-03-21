@@ -1,5 +1,5 @@
 const fs = require('fs');
-const input = fs.readFileSync('/dev/stdin').toString().trim().split('\n');
+const input = fs.readFileSync(0,"utf8").toString().trim().split('\n');
 const N = input[0];
 const words = input.slice(1);
 
